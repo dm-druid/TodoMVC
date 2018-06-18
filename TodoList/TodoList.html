@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Todo List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no,maximum-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="TodoList.css" />
+    <script src="Hammer.JS"></script>
+    <script src="Storage.js"></script>
+    <script src="TodoList.js"></script>
+</head>
+<body>
+    <div class="todo-app">
+        <!-- <header class="header"> -->
+        <h1>todos</h1>
+        <!-- Add New Item -->
+        <div class="toggle-all"></div>
+        <input id="todo" type="text" placeholder="to do something" autofocus>
+        <button id="add" draggable="true">+</button>
+        <!-- </header> -->
+        <div class="main">
+            <scroll-container id="list"></scroll-container>
+            <footer class="footer">
+                <span id="todo-count"></span>
+                <ul class="filters">
+                    <li><a class="" id="all" style="cursor:pointer;">All</a></li>
+                    <li><a class="" id="pending" style="cursor:pointer;">Pending</a></li>
+                    <li><a class="" id="active" style="cursor:pointer;">Active</a></li>
+                    <li><a class="" id="completed" style="cursor:pointer;">Completed</a></li>
+                </ul>
+                <button class="clear-completed">Clear completed</button>
+            </footer>
+        </div>
+    </div>
+
+    <div class="calendar-app">
+
+    </div>
+    
+</body>
+</html>
