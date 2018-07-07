@@ -17,7 +17,3 @@ A simple todo list as a course project for *Script Programming Design*.
 
   <img src="image/interface.png" width="70%">
 
-- Basic functionality.
-
-  <img src="image/1.png" width="70%">
-
